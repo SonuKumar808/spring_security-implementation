@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/authservicedb
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+
